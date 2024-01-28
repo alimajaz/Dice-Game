@@ -56,25 +56,28 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 90%;
+  }
+  img {
+    max-width: 50%;
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-
-  img {
-    width: 60%;
+  .dice {
+    text-align: center;
+    display: inline-block;
   }
 }
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 
   h1 {
@@ -82,6 +85,9 @@ footer {
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  img {
+    max-width: 50%;
   }
 }
