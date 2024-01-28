@@ -53,3 +53,35 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
